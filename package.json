@@ -1,0 +1,26 @@
+{
+  "name": "technical-assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node server/index.js",
+    "client": "sensible-browser ./client/index.html",
+    "start": "npm run client & npm run server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Morganb816/Konica-Minolta-Take-Home.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Morganb816/Konica-Minolta-Take-Home/issues"
+  },
+  "homepage": "https://github.com/Morganb816/Konica-Minolta-Take-Home#readme",
+  "dependencies": {
+    "ws": "^7.3.1"
+  }
+}
